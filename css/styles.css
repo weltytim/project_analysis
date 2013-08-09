@@ -1,0 +1,150 @@
+@charset "UTF-8";
+													/*                   HEADER                */
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }										
+
+body{
+	width:100%;
+	margin:0 auto;
+	background-color:#F80;
+}
+
+header{
+	width:100%;
+	margin:0 auto;
+}
+
+header ul{
+	width:100%;
+	text-decoration:none;
+}
+
+header li{
+	float:left;
+	padding-left:10%;
+	font-family: 'Fugaz One', cursive;
+	font-size:2.75em; 
+	text-shadow:1px 1px #fff;
+	display:inline;
+	text-decoration:none;
+}
+
+#nav{
+	margin-bottom:15%;
+}
+
+
+#nav p{
+	text-align:center;
+	width:9%;
+	margin-left:11%;
+	padding-left:15px;
+	font-family: 'Fugaz One', cursive;
+	font-size:13px; /*60px*/
+	display:inline;
+	text-decoration:none;
+	float:left;
+}
+
+h1{
+	font-family: 'Fugaz One', cursive;
+	font-size:2.75em; /*60px*/
+	text-shadow:1px 1px #fff;
+	float:left;
+}
+
+aside{
+	margin:0 auto;
+	width:80%;
+}
+
+aside h2,a{
+	width:100%;
+	margin:0 auto;
+	font-family: 'Fugaz One', cursive;
+	font-size:2.25em; /*60px*/
+	text-shadow:1px 1px #fff;
+	float:left;
+}
+
+aside a{
+	text-decoration:none;
+	color:#000;
+	font-size:1.125em;
+}
+
+aside a:hover{
+	color:#fff;
+	text-shadow:1px 1px #000;
+}
+	
+
+aside ul{
+	width:100%;
+	list-style:none;
+}
+
+aside li{
+	text-decoration:none;
+	list-style:none;
+}
+
+#down{
+	margin-top:6%;
+}
+
+header p{
+	width:20%;
+	margin:0 auto;
+	padding-left:2%;
+	font-family: 'Fugaz One', Helvetica, sans-serif;
+	font-size:1em; /*60px*/
+	float:left;
+}
+
+.borders{
+	height:auto;
+    border: .725em solid #000;
+}
+
+													/*                 Navigation               */
+
+
+													/* 				MEDIA QUERIES			*/
+/* 				 TABLETS			*/													
+@media screen and (min-width :768px) and (max-width : 959px)  {
+	aside{ position: absolute;
+    		left: -999em;}
+	#link li{ list-style-type:none;}
+	.info{float:none;
+			width:96%}
+	table{ position: absolute;
+    		left: -999em;}
+}
+
+
+/* 		MOBILE  LANDSCAPE		   */
+@media screen and (min-width : 480px) and (max-width : 767px) {  
+	aside{ position: absolute;
+    		left: -999em;}
+	#link li{ list-style-type:none;}
+	.info{float:none;
+			width:96%;
+			margin:0;}
+	table{ position: absolute;
+    		left: -999em;}
+}
+
+/* 		MOBILE  PORTRAIT		   */
+@media screen and (min-width : 0px) and (max-width : 479px) {  
+	aside{ position: absolute;
+    		left: -999em;}
+	#link li{ list-style-type:none;}
+	.info{float:none;
+			width:96%;
+			margin:0;}
+	table{ position: absolute;
+    		left: -999em;}
+}
+												
